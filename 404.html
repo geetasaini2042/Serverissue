@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>500 - Internal Server Error</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+        }
+
+        .container {
+            max-width: 480px;
+            width: 100%;
+            background: #020617;
+            border-radius: 18px;
+            padding: 32px 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+            text-align: center;
+            border: 1px solid rgba(148, 163, 184, 0.35);
+        }
+
+        .status-code {
+            font-size: 64px;
+            font-weight: 800;
+            letter-spacing: 4px;
+            background: linear-gradient(135deg, #f97316, #facc15);
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 8px;
+        }
+
+        .subtitle-en {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.22em;
+            color: #9ca3af;
+            margin-bottom: 20px;
+        }
+
+        .emoji {
+            font-size: 42px;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 22px;
+            margin-bottom: 8px;
+            color: #f9fafb;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #9ca3af;
+            margin-bottom: 18px;
+        }
+
+        .footer-text {
+            margin-top: 22px;
+            font-size: 11px;
+            color: #6b7280;
+        }
+
+        .footer-text code {
+            font-size: 11px;
+            background: #020617;
+            padding: 3px 6px;
+            border-radius: 6px;
+            border: 1px solid #1f2937;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="status-code">500</div>
+    <div class="subtitle-en">Internal Server Error</div>
+    <div class="emoji">😵‍💫</div>
+
+    <h1>Something went wrong</h1>
+    <p>
+        The server encountered an unexpected error while processing your request.  
+        Please try again later. If the issue continues, contact the support team.
+    </p>
+
+    <div class="footer-text">
+        Error code: <code>HTTP 500</code>
+    </div>
+</div>
+</body>
+</html>
